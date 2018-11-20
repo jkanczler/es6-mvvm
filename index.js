@@ -62,7 +62,7 @@ class View {
     }
 
     onNicknameChange() {
-        this.viewModel.nickname = this.nickname.value;
+        this.viewModel.nickname = this.nicknameElement.value;
     }
 
     sendMessage() {
