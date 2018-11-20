@@ -84,12 +84,11 @@ class View {
         for (const message of this.viewModel.messages) {
             const messageElement = document.createElement('div');
             
-
             if (message.user) {
                 messageElement.innerText = `${message.user}: ${message.message}`;
             } else {
                 messageElement.innerText = message.message;
-                messageElement.style = "text-align: right;"
+                messageElement.className = "current-user-message";
             }
         
             this.messagesElement.appendChild(messageElement);

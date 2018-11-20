@@ -38,3 +38,7 @@
 .send {
     width: 10%;
 }
+
+.current-user-message {
+    text-align: right;
+}
