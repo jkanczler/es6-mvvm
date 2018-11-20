@@ -77,7 +77,7 @@ class View {
     render() {
         this.nicknameElement.value = this.viewModel.nickname;
         
-        while(this.messagesElement.firstChild) {
+        while (this.messagesElement.firstChild) {
             this.messagesElement.removeChild(this.messagesElement.firstChild);
         }
 
