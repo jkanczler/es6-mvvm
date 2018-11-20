@@ -1,0 +1,40 @@
+.container {
+    position: absolute;
+    width: 640px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    margin: -240px 0 0 -320px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.chat-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+}
+
+.messages {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.nick-name {
+    width: 30%;
+}
+
+.message {
+    width: 57.4%;
+}
+
+.send {
+    width: 10%;
+}
